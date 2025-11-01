@@ -14,21 +14,28 @@ python -m venv .venv
 deactivate
 
 ### Instalar librerías
-python -m pip install nombre_libreria  
-python -m pip install -r requirements.txt  
+pip install nombre_libreria  
+pip install -r requirements.txt  
 
 ### Actualizar pip
-python -m pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 
 ### Comandos útiles
 | Acción | Comando |
 |--------|----------|
 | Ver librerías instaladas | python -m pip list |
-| Ver ubicación del entorno | where python |
 | Exportar librerías | python -m pip freeze > requirements.txt |
 | Instalar desde archivo | python -m pip install -r requirements.txt |
 
+
+# Configuracion Git
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tucorreo@ejemplo.com"
+git config --list
+
 ---
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## macOS / Linux
 
@@ -65,3 +72,6 @@ python3 -m pip install --upgrade pip
 - No uses permisos de administrador dentro del entorno.  
 - Usa python o python3 según tu sistema.  
 - En VS Code selecciona el entorno desde *Select Interpreter*.
+
+
+
